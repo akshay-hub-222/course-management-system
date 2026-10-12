@@ -1,4 +1,4 @@
-const BASE = '/api';
+const BASE = 'https://learnify-backend-docker.onrender.com/api';
 
 export async function api(path, { method = 'GET', body } = {}) {
   const token = localStorage.getItem('cms_token');
